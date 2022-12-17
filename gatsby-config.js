@@ -3,8 +3,8 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `landingPage`,
-    siteUrl: `https://www.yourdomain.tld`
+    title: `CPDUnlimited`,
+    siteUrl: `https://cpdunlimited.com/`,
   },
-  plugins: ["gatsby-plugin-postcss"]
-};
+  plugins: ['gatsby-plugin-postcss'],
+}

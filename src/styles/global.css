@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn-r-r {
+  font-family: 'Poppins', sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 32px;
+  transition: 0.5s;
+  color: #fff;
+  background: #21ba45;
+  border-radius: 10px 50px 50px 10px;
+  min-width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btn-l-l {
+  font-family: 'Poppins', sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 32px;
+  transition: 0.5s;
+  color: #21ba45;
+  border: 3px solid #21ba45;
+  border-radius: 50px 10px 10px 50px;
+  min-width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
