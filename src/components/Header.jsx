@@ -57,7 +57,7 @@ export default function Header() {
   const [openMobileMenu, setOpenMobileMenu] = useState(false)
 
   return (
-    <header class='fixed top-0 w-full clearNav z-50  bg-indigo-50'>
+    <header class='fixed top-0 w-full clearNav z-50  bg-white shadow-lg shadow hover:shadow-lg'>
       <div class='mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 '>
         <nav className='relative z-50 flex justify-between'>
           <div className='flex  md:gap-x-12 items-center  p-3 md:p-1'>

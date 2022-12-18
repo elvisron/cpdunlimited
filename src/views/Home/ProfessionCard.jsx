@@ -4,7 +4,7 @@ const ProfessionCard = ({ link }) => {
   return (
     <div className='flex flex-col justify-center  '>
       <div className='group  [perspective:1000px]'>
-        <div className='relative max-w-[310px] bg-[rgba(250,250,250,0.8)] duration-500 mx-auto transition-all group-hover:[transform:rotateY(180deg)] [transform-style:preserve-3d]  border  min-h-[100px] rounded-md'>
+        <div className='relative max-w-[430px] bg-[rgba(250,250,250,0.8)] duration-500 mx-auto transition-all group-hover:[transform:rotateY(180deg)] [transform-style:preserve-3d]  border  min-h-[60px] rounded-md pt-1'>
           <div className='absolute insert-0  p-6  w-full h-full  flex items-center justify-center  [backface-visibility:hidden]'>
             <h5 class='mb-2 text-2xl font-bold tracking-tight   text-slate-900 text-center'>
               {link.title}
@@ -29,7 +29,7 @@ const ProfessionCard = ({ link }) => {
                 href={link.signup}
                 className='px-3 rounded bg-slate-100 cursor-pointer text-sm text-center ml-2   '
               >
-                Create New Account
+                Create account
               </a>
             </div>
           </div>

@@ -2,7 +2,7 @@ import * as React from 'react'
 import Header from '../components/Header'
 import { Seo } from '../components/Seo'
 import Hero from '../views/Home/Hero'
-import TrustedPartners from '../views/Home/TrustedPartners'
+
 
 const IndexPage = () => {
   return (
@@ -11,7 +11,6 @@ const IndexPage = () => {
         <Header />
         <Hero />
       </div>
-      <TrustedPartners />
       <Header />
     </main>
   )

@@ -9,7 +9,7 @@ import Six from '../../images/6.png'
 const TrustedPartners = () => {
   return (
     <div>
-      <div class='py-[50px]'>
+      <div class='pb-[50px] z-50'>
         <h2 class='mx-auto  max-w-2xl text-[35px] font-bold tracking-tight text-slate-700 text-center'>
           Trusted Partners
         </h2>
