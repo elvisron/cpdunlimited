@@ -1,7 +1,8 @@
 import React from 'react'
 import BG from '../../images/bg.jpg'
 import ProfessionCard from './ProfessionCard'
-import TrustedPartners from './TrustedPartners'
+import arrow from '../../images/down-arrow.svg'
+import heroimage from '../../images/heroimage.png'
 
 const links = [
   {
@@ -38,7 +39,7 @@ export default function Hero() {
             alt=''
             src={BG}
             width='918'
-            height='1095'
+            height='600'
             class='absolute top-0 left-0 translate-y-[-10%] translate-x-[-55%] -scale-x-100 sm:left-1/2 sm:translate-y-[-6%] sm:translate-x-[-98%] lg:translate-x-[-106%] xl:translate-x-[-122%]'
             style={{ color: 'transparent' }}
           />
@@ -46,9 +47,10 @@ export default function Hero() {
           <div class='absolute inset-x-0 bottom-0 h-40 bg-gradient-to-t from-white'></div>
         </div>
        <div class="relative px-6 lg:px-8">
-      <div class="mx-auto max-w-3xl pt-20 pb-32 sm:pt-48 sm:pb-4">
+      <div class="mx-auto max-w-6xl pt-20 pb-32 sm:pt-48 sm:pb-40">
         <div>
-          <div class="hidden sm:mb-8 sm:flex sm:justify-center">
+          
+          <div class="hidden sm:mb-8 sm:flex sm:justify-left">
             <div class="relative overflow-hidden rounded-full py-1.5 px-4 text-sm leading-6 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
               <span class="text-gray-600">
                 Welcome to CPD Unlimited. <a href="#" class="font-semibold text-indigo-600"><span class="absolute inset-0" aria-hidden="true"></span>Read more <span aria-hidden="true">&rarr;</span></a>
@@ -56,20 +58,26 @@ export default function Hero() {
             </div>
           </div>
           
-          
 
           <div>
-            <h1 class="text-4xl font-bold tracking-tight sm:text-center sm:text-6xl">#1 quality CPD educational platform in Africa</h1>
-            <p class="mt-6 text-lg leading-8 text-gray-600 sm:text-center p-6">Select your professional path below</p>
-            <div className='max-w-2xl md:mx-auto md:grid-cols-2 grid gap-5  '>
+            <div class='max-w-6xl md:mx-auto md:grid-cols-2 grid gap-8'>
+              <h1 class="text-4xl font-bold tracking-tight sm:text-left sm:text-5xl">100% online quality CPD educational platform in Africa and beyond.</h1>
+              <img class='mx-auto object-center w-150 h-80' alt='Transistor' src={heroimage} />
+            </div>
+           
+            <p class="mt-6 text-lg leading-8 text-gray-600 sm:text-center p-6 ">Select your professional path below</p>
+
+              <section class="hero container max-w-screen-lg mx-auto pb-10">
+                <img class='mx-auto object-center animate-bounce w-6 h-6' alt='Transistor' src={arrow} />
+              </section>
+            
+            
+          <div className='max-w-6xl md:mx-auto md:grid-cols-4 grid gap-4  '>
                 {links.map((link, index) => (
                   <ProfessionCard link={link} key={index} />
                 ))}
               </div>
           </div>
-
-
-     
           
           <div class="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]">
             <svg class="relative left-[calc(50%+3rem)] h-[21.1875rem] max-w-none -translate-x-1/2 sm:left-[calc(50%+36rem)] sm:h-[42.375rem]" viewBox="0 0 1155 678" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -79,7 +87,6 @@ export default function Hero() {
                   <stop stop-color="#9089FC"></stop>
                   <stop offset="1" stop-color="#FF80B5"></stop>
                 </linearGradient>
-                <TrustedPartners />
               </defs>
             </svg>
           </div>

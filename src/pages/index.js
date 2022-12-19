@@ -1,8 +1,9 @@
 import * as React from 'react'
 import Header from '../components/Header'
+import Footer from '../components/Footer'
 import { Seo } from '../components/Seo'
 import Hero from '../views/Home/Hero'
-
+import TrustedPartners from '../views/Home/TrustedPartners'
 
 const IndexPage = () => {
   return (
@@ -11,7 +12,8 @@ const IndexPage = () => {
         <Header />
         <Hero />
       </div>
-      <Header />
+      <TrustedPartners />
+      <Footer />
     </main>
   )
 }
