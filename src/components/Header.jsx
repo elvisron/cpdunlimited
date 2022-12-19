@@ -20,17 +20,17 @@ const registrationLinks = [
     subLinks: [
       {
         title: 'Allied Sciences',
-        url: 'https://allied.cpdunlimited.com/signin',
+        url: 'https://allied.cpdunlimited.com/login',
       },
       {
         title: 'Medical Doctors & PAs',
-        url: 'https://medic.cpdunlimited.com/signin',
+        url: 'https://medic.cpdunlimited.com/login',
       },
       {
         title: 'Nurses & Midwives',
-        url: 'https://nurse.cpdunlimited.com/signin',
+        url: 'https://nurse.cpdunlimited.com/login',
       },
-      { title: 'Pharmacists', url: 'https://app.cpdunlimited.com/signin' },
+      { title: 'Pharmacists', url: 'https://app.cpdunlimited.com/login' },
     ],
   },
   {
