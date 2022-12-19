@@ -8,9 +8,9 @@ export default function Footer() {
     const [openMobileMenu, setOpenMobileMenu] = useState(false)
   
     return (
-        <footer class="bg-white dark:bg-gray-900 ">
-            <div class="grid grid-cols-2 gap-8 py-8 px-6 md:grid-cols-4">
-                <div>
+        <footer class="bg-white dark:bg-gray-900">
+            {/* <div class="grid grid-cols-2 gap-8 py-8 px-6 md:grid-cols-4 pl-60">
+                <div >
                     <h2 class="mb-6 text-sm font-semibold text-gray-500 uppercase dark:text-gray-400">Company</h2>
                     <ul class="text-gray-500 dark:text-gray-400">
                         <li class="mb-4">
@@ -75,9 +75,9 @@ export default function Footer() {
                         </li>
                     </ul>
                 </div>
-            </div>
-            <div class="py-6 px-4 bg-gray-100 dark:bg-gray-700 md:flex md:items-center md:justify-between">
-                <span class="text-sm text-gray-500 dark:text-gray-300 sm:text-center">© 2022 <a href="https://flowbite.com/">Flowbite™</a>. All Rights Reserved.
+            </div> */}
+            <div class="py-6 px-4 bg-gray-100 dark:bg-gray-700 md:flex md:items-center md:justify-between px-60">
+                <span class="text-sm text-gray-500 dark:text-gray-300 sm:text-center">© 2022 <a href="https://cpdunlimited.com/">CPDUnlimited™</a>. All Rights Reserved.
                 </span>
                 <div class="flex mt-4 space-x-6 sm:justify-center md:mt-0">
                     <a href="#" class="text-gray-400 hover:text-gray-900 dark:hover:text-white">
