@@ -8,25 +8,25 @@ const links = [
   {
     title: 'Allied Sciences',
     explore: 'https://allied.cpdunlimited.com/',
-    signin: 'https://allied.cpdunlimited.com/signin',
+    signin: 'https://allied.cpdunlimited.com/login',
     signup: 'https://allied.cpdunlimited.com/signup',
   },
   {
     title: 'Medical Doctors & PAs',
     explore: 'https://medic.cpdunlimited.com/',
-    signin: 'https://medic.cpdunlimited.com/signin',
+    signin: 'https://medic.cpdunlimited.com/login',
     signup: 'https://medic.cpdunlimited.com/signup',
   },
   {
     title: 'Nurses & Midwives',
     explore: 'https://nurse.cpdunlimited.com/',
-    signin: 'https://nurse.cpdunlimited.com/signin',
+    signin: 'https://nurse.cpdunlimited.com/login',
     signup: 'https://nurse.cpdunlimited.com/signup',
   },
   {
     title: 'Pharmacists',
     explore: 'https://app.cpdunlimited.com/',
-    signin: 'https://app.cpdunlimited.com/signin',
+    signin: 'https://app.cpdunlimited.com/login',
     signup: 'https://app.cpdunlimited.com/signup',
   },
 ]
