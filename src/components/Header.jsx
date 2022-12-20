@@ -5,7 +5,7 @@ import { BiMenu } from 'react-icons/bi'
 import { GrClose } from 'react-icons/gr'
 
 const mainLinks = [
-  { title: 'Allied Sciences', url: 'https://allied.cpdunlimited.com/' },
+  // { title: 'Allied Sciences', url: 'https://allied.cpdunlimited.com/' },
   { title: 'Medical Doctors & PAs', url: 'https://medic.cpdunlimited.com/' },
   {
     title: 'Nurses & Midwives',
@@ -18,10 +18,10 @@ const registrationLinks = [
   {
     title: 'Login',
     subLinks: [
-      {
-        title: 'Allied Sciences',
-        url: 'https://allied.cpdunlimited.com/login',
-      },
+      // {
+      //   title: 'Allied Sciences',
+      //   url: 'https://allied.cpdunlimited.com/login',
+      // },
       {
         title: 'Medical Doctors & PAs',
         url: 'https://medic.cpdunlimited.com/login',
@@ -36,10 +36,10 @@ const registrationLinks = [
   {
     title: 'Create Account',
     subLinks: [
-      {
-        title: 'Allied Sciences',
-        url: 'https://allied.cpdunlimited.com/signup',
-      },
+      // {
+      //   title: 'Allied Sciences',
+      //   url: 'https://allied.cpdunlimited.com/signup',
+      // },
       {
         title: 'Medical Doctors & PAs',
         url: 'https://medic.cpdunlimited.com/signup',
