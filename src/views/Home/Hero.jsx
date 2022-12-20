@@ -85,7 +85,7 @@ export default function Hero() {
                 />
               </section>
 
-              <div className='max-w-6xl md:mx-auto md:grid-cols-3 grid gap-4  '>
+              <div className='max-w-6xl mx-auto md:mx-auto md:grid-cols-3 grid gap-4  '>
                 {links.map((link, index) => (
                   <ProfessionCard link={link} key={index} />
                 ))}
