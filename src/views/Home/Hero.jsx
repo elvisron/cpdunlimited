@@ -49,16 +49,15 @@ export default function Hero() {
       <div class='relative px-6 lg:px-8'>
         <div class='mx-auto max-w-6xl pt-20 pb-32 sm:pt-48 sm:pb-40'>
           <div>
-            <div class='hidden sm:mb-8 sm:flex sm:justify-left'>
-              <div class='relative overflow-hidden rounded-full py-1.5 px-4 text-sm leading-6 ring-1 ring-gray-900/10 hover:ring-gray-900/20'>
-                <span class='text-gray-600'>
-                  Welcome to CPD Unlimited.{' '}
-                  <a href='#' class='font-semibold text-indigo-600'>
-                    <span class='absolute inset-0' aria-hidden='true'></span>
-                    Read more <span aria-hidden='true'>&rarr;</span>
-                  </a>
-                </span>
-              </div>
+            <div class='max-w-6xl md:mx-auto md:grid-cols-2 grid gap-8'>
+              <h1 class='text-4xl font-bold tracking-tight sm:text-left sm:text-5xl'>
+                Top Notch Accredited Online CPD Educational Platform
+              </h1>
+              <img
+                class='mx-auto object-center w-150 h-80'
+                alt='Transistor'
+                src={heroimage}
+              />
             </div>
 
             <div>
