@@ -36,10 +36,10 @@ const registrationLinks = [
   {
     title: 'Create Account',
     subLinks: [
-      {
-        title: 'Allied Sciences',
-        url: 'https://allied.cpdunlimited.com/signup',
-      },
+      // {
+      //   title: 'Allied Sciences',
+      //   url: 'https://allied.cpdunlimited.com/signup',
+      // },
       {
         title: 'Medical Doctors & PAs',
         url: 'https://medic.cpdunlimited.com/signup',
