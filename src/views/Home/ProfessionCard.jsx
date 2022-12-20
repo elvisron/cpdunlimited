@@ -27,7 +27,7 @@ const ProfessionCard = ({ link }) => {
               </a>
               <a
                 href={link.signup}
-                className='px-3 rounded bg-slate-100 cursor-pointer text-sm text-center ml-2   '
+                className=' px-3 rounded bg-slate-100 cursor-pointer text-sm text-center ml-2 '
               >
                 SignUp
               </a>
