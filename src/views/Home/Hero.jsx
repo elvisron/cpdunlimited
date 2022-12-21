@@ -49,19 +49,20 @@ export default function Hero() {
       <div class='relative px-6 lg:px-8'>
         <div class='mx-auto max-w-6xl pt-20 pb-32 sm:pt-48 sm:pb-40'>
           <div>
-            <div class='max-w-6xl md:mx-auto md:grid-cols-2 grid gap-8'>
-              <h1 class='text-4xl font-bold tracking-tight sm:text-left sm:text-5xl'>
-                Top Notch Accredited Online CPD Educational Platform
-              </h1>
-              <img
-                class='mx-auto object-center w-150 h-80'
-                alt='Transistor'
-                src={heroimage}
-              />
-            </div>
+            
 
             <div>
               <div class='max-w-6xl md:mx-auto md:grid-cols-2 grid gap-8'>
+                <h1 class='text-4xl font-bold tracking-tight sm:text-left sm:text-5xl'>
+                  Top Notch Accredited Online CPD Educational Platform
+                </h1>
+                <img
+                  class='mx-auto object-center w-150 h-80'
+                  alt='Transistor'
+                  src={heroimage}
+                />
+              </div>
+              {/* <div class='max-w-6xl md:mx-auto md:grid-cols-2 grid gap-8'>
                 <h1 class='text-4xl font-bold tracking-tight sm:text-left sm:text-5xl'>
                   100% online quality CPD educational platform in Africa and
                   beyond.
@@ -71,7 +72,7 @@ export default function Hero() {
                   alt='Transistor'
                   src={heroimage}
                 />
-              </div>
+              </div> */}
 
               <p class='mt-6 text-lg leading-8 text-gray-600 sm:text-center p-6 '>
                 Select your professional path below
