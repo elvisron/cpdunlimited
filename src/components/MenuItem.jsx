@@ -15,7 +15,7 @@ const MenuItem = ({ link }) => {
         <button
           className={`${
             link.title === 'Login' ? 'btn-l-l ' : 'btn-r-r '
-          }  flex items-center justify-between`}
+          }  flex items-center justify-between border`}
         >
           {link.title}
           <BsChevronDown />

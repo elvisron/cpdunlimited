@@ -21,7 +21,7 @@ const TrustedPartners = () => {
             <ul class='flex flex-col items-center gap-y-8 sm:flex-row sm:gap-x-12 sm:gap-y-0'>
               <li class='flex'>
                 <img
-                  alt='Transistor'
+                  alt='Partners'
                   src={Eight}
                   width='158'
                   height='48'
@@ -30,7 +30,7 @@ const TrustedPartners = () => {
               </li>
               <li class='flex'>
                 <img
-                  alt='Tuple'
+                  alt='Partners'
                   src={Seven}
                   width='105'
                   height='48'
@@ -39,9 +39,18 @@ const TrustedPartners = () => {
               </li>
               <li class='flex'>
                 <img
-                  alt='StaticKit'
+                  alt='Partners'
                   src={Six}
                   width='127'
+                  height='48'
+                  style={{ color: 'transparent' }}
+                />
+              </li>
+              <li class='flex'>
+                <img
+                  alt='Partners'
+                  src={Two}
+                  width='138'
                   height='48'
                   style={{ color: 'transparent' }}
                 />
@@ -52,16 +61,7 @@ const TrustedPartners = () => {
             <ul class='flex flex-col items-center gap-y-8 sm:flex-row sm:gap-x-12 sm:gap-y-0'>
               <li class='flex'>
                 <img
-                  alt='Mirage'
-                  src={Two}
-                  width='138'
-                  height='48'
-                  style={{ color: 'transparent' }}
-                />
-              </li>
-              <li class='flex'>
-                <img
-                  alt='Laravel'
+                  alt='Partners'
                   src={Four}
                   width='136'
                   height='48'
@@ -70,7 +70,7 @@ const TrustedPartners = () => {
               </li>
               <li class='flex'>
                 <img
-                  alt='Statamic'
+                  alt='Partners'
                   src={Five}
                   width='147'
                   height='48'
@@ -79,7 +79,7 @@ const TrustedPartners = () => {
               </li>
               <li class='flex'>
                 <img
-                  alt='Statamic'
+                  alt='Partners'
                   src={One}
                   width='147'
                   height='48'
@@ -88,7 +88,7 @@ const TrustedPartners = () => {
               </li>
               <li class='flex'>
                 <img
-                  alt='Statamic'
+                  alt='Partners'
                   src={Three}
                   width='147'
                   height='48'
