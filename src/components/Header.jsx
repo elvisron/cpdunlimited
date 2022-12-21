@@ -5,23 +5,19 @@ import { BiMenu } from 'react-icons/bi'
 import { GrClose } from 'react-icons/gr'
 
 const mainLinks = [
-  // { title: 'Allied Sciences', url: '#' },
   { title: 'Medical Doctors & PAs', url: 'https://medic.cpdunlimited.com/' },
   {
     title: 'Nurses & Midwives',
     url: 'https://nurse.cpdunlimited.com/',
   },
   { title: 'Pharmacists', url: 'https://app.cpdunlimited.com/' },
+  { title: 'Allied Health', url: '/#' },
 ]
 
 const registrationLinks = [
   {
     title: 'Login',
     subLinks: [
-      // {
-      //   title: 'Allied Sciences',
-      //   url: '#',
-      // },
       {
         title: 'Medical Doctors & PAs',
         url: 'https://medic.cpdunlimited.com/login',
@@ -31,15 +27,15 @@ const registrationLinks = [
         url: 'https://nurse.cpdunlimited.com/login',
       },
       { title: 'Pharmacists', url: 'https://app.cpdunlimited.com/login' },
+      {
+        title: 'Allied Health',
+        url: '/#',
+      },
     ],
   },
   {
     title: 'Create Account',
     subLinks: [
-      // {
-      //   title: 'Allied Sciences',
-      //   url: 'https://allied.cpdunlimited.com/signup',
-      // },
       {
         title: 'Medical Doctors & PAs',
         url: 'https://medic.cpdunlimited.com/signup',
@@ -49,6 +45,10 @@ const registrationLinks = [
         url: 'https://nurse.cpdunlimited.com/signup',
       },
       { title: 'Pharmacists', url: 'https://app.cpdunlimited.com/signup' },
+      {
+        title: 'Allied Health',
+        url: '/#',
+      },
     ],
   },
 ]
@@ -57,7 +57,7 @@ export default function Header() {
   const [openMobileMenu, setOpenMobileMenu] = useState(false)
 
   return (
-    <header class='fixed top-0 w-full clearNav z-50  bg-white shadow-lg shadow hover:shadow-lg'>
+    <header class='fixed top-0 w-full clearNav z-50  bg-white shadow-lg  hover:shadow-lg'>
       <div class='mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 '>
         <nav className='relative z-50 flex justify-between'>
           <div className='flex  md:gap-x-12 items-center  p-3 md:p-1'>

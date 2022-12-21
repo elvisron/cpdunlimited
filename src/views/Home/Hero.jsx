@@ -5,12 +5,6 @@ import arrow from '../../images/down-arrow.svg'
 import heroimage from '../../images/heroimage.png'
 
 const links = [
-  // {
-  //   title: 'Allied Sciences',
-  //   explore: '#',
-  //   signin: '#',
-  //   signup: '#',
-  // },
   {
     title: 'Medical Doctors & PAs',
     explore: 'https://medic.cpdunlimited.com/',
@@ -28,6 +22,12 @@ const links = [
     explore: 'https://app.cpdunlimited.com/',
     signin: 'https://app.cpdunlimited.com/login',
     signup: 'https://app.cpdunlimited.com/signup',
+  },
+  {
+    title: 'Allied Health',
+    explore: '/#',
+    signin: '/#',
+    signup: '/#',
   },
 ]
 
@@ -85,7 +85,7 @@ export default function Hero() {
                 />
               </section>
 
-              <div className='max-w-6xl mx-auto md:mx-auto md:grid-cols-3 grid gap-4  '>
+              <div className='max-w-6xl mx-auto md:mx-auto md:grid-cols-2 lg:grid-cols-4 grid gap-4  '>
                 {links.map((link, index) => (
                   <ProfessionCard link={link} key={index} />
                 ))}

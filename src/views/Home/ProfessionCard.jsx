@@ -12,26 +12,32 @@ const ProfessionCard = ({ link }) => {
           </div>
 
           <div className='absolute insert-0 h-full w-full p-6 bg-white border  [backface-visibility:hidden] [transform:rotateY(180deg)] rounded-md'>
-            <div className='flex items-center justify-center h-full w-full'>
-              <a
-                href={link.explore}
-                className=' px-3 rounded bg-slate-100 cursor-pointer text-sm text-center ml-2 '
-              >
-                Explore
-              </a>
-              <a
-                href={link.signin}
-                className=' px-3 rounded bg-slate-100 cursor-pointer text-sm text-center ml-2 '
-              >
-                Login
-              </a>
-              <a
-                href={link.signup}
-                className=' px-3 rounded bg-slate-100 cursor-pointer text-sm text-center ml-2 '
-              >
-                SignUp
-              </a>
-            </div>
+            {link.title === 'Allied Health' ? (
+              <div className='flex items-center justify-center h-full w-full'>
+                <p>coming soon</p>
+              </div>
+            ) : (
+              <div className='flex items-center justify-center h-full w-full'>
+                <a
+                  href={link.explore}
+                  className=' px-3 rounded bg-slate-100 cursor-pointer text-sm text-center ml-2 '
+                >
+                  Explore
+                </a>
+                <a
+                  href={link.signin}
+                  className=' px-3 rounded bg-slate-100 cursor-pointer text-sm text-center ml-2 '
+                >
+                  Login
+                </a>
+                <a
+                  href={link.signup}
+                  className=' px-3 rounded bg-slate-100 cursor-pointer text-sm text-center ml-2 '
+                >
+                  SignUp
+                </a>
+              </div>
+            )}
           </div>
         </div>
       </div>
