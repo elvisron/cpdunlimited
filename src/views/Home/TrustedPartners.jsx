@@ -22,7 +22,7 @@ const TrustedPartners = () => {
                 <img
                   alt='Partners'
                   src={Eight}
-                  width='158'
+                  width='137'
                   height='48'
                   style={{ color: 'transparent' }}
                 />
@@ -31,7 +31,7 @@ const TrustedPartners = () => {
                 <img
                   alt='Partners'
                   src={Seven}
-                  width='105'
+                  width='120'
                   height='48'
                   style={{ color: 'transparent' }}
                 />
@@ -40,7 +40,7 @@ const TrustedPartners = () => {
                 <img
                   alt='Partners'
                   src={Six}
-                  width='127'
+                  width='130'
                   height='48'
                   style={{ color: 'transparent' }}
                 />
@@ -49,7 +49,7 @@ const TrustedPartners = () => {
                 <img
                   alt='Partners'
                   src={Two}
-                  width='138'
+                  width='200'
                   height='48'
                   style={{ color: 'transparent' }}
                 />
@@ -62,7 +62,7 @@ const TrustedPartners = () => {
                 <img
                   alt='Partners'
                   src={Four}
-                  width='136'
+                  width='200'
                   height='48'
                   style={{ color: 'transparent' }}
                 />
@@ -71,7 +71,7 @@ const TrustedPartners = () => {
                 <img
                   alt='Partners'
                   src={Five}
-                  width='147'
+                  width='250'
                   height='48'
                   style={{ color: 'transparent' }}
                 />
@@ -80,7 +80,7 @@ const TrustedPartners = () => {
                 <img
                   alt='Partners'
                   src={Three}
-                  width='147'
+                  width='120'
                   height='48'
                   style={{ color: 'transparent' }}
                 />

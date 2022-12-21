@@ -14,8 +14,8 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean"
   },
-
   "dependencies": {
+    "@graphql-tools/graphql-tag-pluck": "^7.4.2",
     "gatsby": "^4.6.2",
     "gatsby-plugin-react-svg": "^3.3.0",
     "react": "^18.2.0",
