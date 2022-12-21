@@ -15,13 +15,6 @@
     "clean": "gatsby clean"
   },
 
-<<<<<<< HEAD
-  "engines": {
-    "node": ">18"
-  },
-
-=======
->>>>>>> 45dc0258ba2ad5c2762b1551cdd64482ca45e10a
   "dependencies": {
     "gatsby": "^4.6.2",
     "gatsby-plugin-react-svg": "^3.3.0",

@@ -1,6 +1,5 @@
 import React from 'react'
-import One from '../../images/1.png'
-import Two from '../../images/2.jpeg'
+import Two from '../../images/9.png'
 import Three from '../../images/3.png'
 import Four from '../../images/4.png'
 import Five from '../../images/5.png'
@@ -72,15 +71,6 @@ const TrustedPartners = () => {
                 <img
                   alt='Partners'
                   src={Five}
-                  width='147'
-                  height='48'
-                  style={{ color: 'transparent' }}
-                />
-              </li>
-              <li class='flex'>
-                <img
-                  alt='Partners'
-                  src={One}
                   width='147'
                   height='48'
                   style={{ color: 'transparent' }}
