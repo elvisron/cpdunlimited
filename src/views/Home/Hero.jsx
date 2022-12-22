@@ -57,31 +57,6 @@ export default function Hero() {
                   <h1 class='text-4xl font-bold tracking-tight sm:text-left sm:text-5xl'>
                     Top Notch Accredited Online CPD Educational Platform
                   </h1>
-
-                  <ul class='mt-8 flex items-center  gap-x-8 sm:flex-col sm:gap-x-0 sm:gap-y-10 xl:flex-row xl:gap-x-12 xl:gap-y-0'>
-                    <li>
-                      <ul class='flex md:justify-between items-center gap-y-8   '>
-                        <li>
-                          <img
-                            alt='Partners'
-                            src={Eight}
-                            width='158'
-                            height='48'
-                            style={{ color: 'transparent' }}
-                          />
-                        </li>
-                        <li>
-                          <img
-                            alt='Partners'
-                            src={Seven}
-                            width='105'
-                            height='48'
-                            style={{ color: 'transparent' }}
-                          />
-                        </li>
-                      </ul>
-                    </li>
-                  </ul>
                 </div>
 
                 <img
