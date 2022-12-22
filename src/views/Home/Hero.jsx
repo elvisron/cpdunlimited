@@ -5,7 +5,6 @@ import arrow from '../../images/down-arrow.svg'
 import heroimage from '../../images/heroimage.png'
 import Seven from '../../images/7.jpeg'
 import Eight from '../../images/8.png'
-import ThankYou from './ThankYou'
 
 const links = [
   {
@@ -51,7 +50,6 @@ export default function Hero() {
       </div>
       <div class='relative px-6 lg:px-8'>
         <div class='mx-auto max-w-6xl pt-20 pb-32 sm:pt-48 sm:pb-40'>
-          <ThankYou />
           <div>
             <div>
               <div class='max-w-6xl md:mx-auto md:grid-cols-2 grid gap-8 mt-10'>
