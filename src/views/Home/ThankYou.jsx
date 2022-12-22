@@ -18,7 +18,7 @@ export default function ThankYou() {
         Thank You for being with us through covid
         <span className='text-[#21ba45] inline underline ml-5'>
           <Typewriter
-            words={['Doctors', 'Nurses', 'Phamacist', 'Allied Health']}
+            words={['Medical Doctors & PAs', 'Nurses & Midwives', 'Pharmacists', 'Allied Health']}
             loop={true}
           />
         </span>
