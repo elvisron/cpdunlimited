@@ -3,6 +3,9 @@ import BG from '../../images/bg.jpg'
 import ProfessionCard from './ProfessionCard'
 import arrow from '../../images/down-arrow.svg'
 import heroimage from '../../images/heroimage.png'
+import Seven from '../../images/7.jpeg'
+import Eight from '../../images/8.png'
+import ThankYou from './ThankYou'
 
 const links = [
   {
@@ -48,20 +51,48 @@ export default function Hero() {
       </div>
       <div class='relative px-6 lg:px-8'>
         <div class='mx-auto max-w-6xl pt-20 pb-32 sm:pt-48 sm:pb-40'>
+          <ThankYou />
           <div>
-            
-
             <div>
-              <div class='max-w-6xl md:mx-auto md:grid-cols-2 grid gap-8'>
-                <h1 class='text-4xl font-bold tracking-tight sm:text-left sm:text-5xl'>
-                  Top Notch Accredited Online CPD Educational Platform
-                </h1>
+              <div class='max-w-6xl md:mx-auto md:grid-cols-2 grid gap-8 mt-10'>
+                <div>
+                  <h1 class='text-4xl font-bold tracking-tight sm:text-left sm:text-5xl'>
+                    Top Notch Accredited Online CPD Educational Platform
+                  </h1>
+
+                  <ul class='mt-8 flex items-center  gap-x-8 sm:flex-col sm:gap-x-0 sm:gap-y-10 xl:flex-row xl:gap-x-12 xl:gap-y-0'>
+                    <li>
+                      <ul class='flex md:justify-between items-center gap-y-8   '>
+                        <li>
+                          <img
+                            alt='Partners'
+                            src={Eight}
+                            width='158'
+                            height='48'
+                            style={{ color: 'transparent' }}
+                          />
+                        </li>
+                        <li>
+                          <img
+                            alt='Partners'
+                            src={Seven}
+                            width='105'
+                            height='48'
+                            style={{ color: 'transparent' }}
+                          />
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+
                 <img
                   class='mx-auto object-center w-150 h-80'
                   alt='Transistor'
                   src={heroimage}
                 />
               </div>
+
               {/* <div class='max-w-6xl md:mx-auto md:grid-cols-2 grid gap-8'>
                 <h1 class='text-4xl font-bold tracking-tight sm:text-left sm:text-5xl'>
                   100% online quality CPD educational platform in Africa and
