@@ -27,9 +27,9 @@ const links = [
   },
   {
     title: 'Allied Health',
-    explore: '/#',
-    signin: '/#',
-    signup: '/#',
+    explore: 'https://allied.cpdunlimited.com/',
+    signin: 'https://allied.cpdunlimited.com/login',
+    signup: 'https://allied.cpdunlimited.com/signup',
   },
 ]
 
