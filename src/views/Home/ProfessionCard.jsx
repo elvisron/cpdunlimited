@@ -12,11 +12,7 @@ const ProfessionCard = ({ link }) => {
           </div>
 
           <div className='absolute insert-0 h-full w-full p-6 bg-white border  [backface-visibility:hidden] [transform:rotateY(180deg)] rounded-md'>
-            {link.title === 'Allied Health' ? (
-              <div className='flex items-center justify-center h-full w-full'>
-                <p>coming soon</p>
-              </div>
-            ) : (
+            {(
               <div className='flex items-center justify-center h-full w-full'>
                 <a
                   href={link.explore}
