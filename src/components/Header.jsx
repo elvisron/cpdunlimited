@@ -11,7 +11,7 @@ const mainLinks = [
     url: 'https://nurse.cpdunlimited.com/',
   },
   { title: 'Pharmacists', url: 'https://app.cpdunlimited.com/' },
-  { title: 'Allied Health', url: '/#' },
+  { title: 'Allied Health', url: 'https://allied.cpdunlimited.com/' },
 ]
 
 const registrationLinks = [
@@ -29,7 +29,7 @@ const registrationLinks = [
       { title: 'Pharmacists', url: 'https://app.cpdunlimited.com/login' },
       {
         title: 'Allied Health',
-        url: '/#',
+        url: 'https://allied.cpdunlimited.com/login',
       },
     ],
   },
@@ -47,7 +47,7 @@ const registrationLinks = [
       { title: 'Pharmacists', url: 'https://app.cpdunlimited.com/signup' },
       {
         title: 'Allied Health',
-        url: '/#',
+        url: 'https://allied.cpdunlimited.com/signup',
       },
     ],
   },
